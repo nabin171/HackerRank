@@ -17,7 +17,12 @@ function kaprekarNumbers(p, q) {
       arr.push(n);
     }
   }
-  console.log(arr.join(" "));
+
+  if (arr.length === 0) {
+    console.log("INVALID RANGE");
+  } else {
+    console.log(arr.join(" "));
+  }
 }
 let p = 1;
 let q = 100;

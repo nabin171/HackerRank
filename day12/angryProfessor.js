@@ -8,9 +8,9 @@ function angryProfessor(k, a) {
     }
   }
   if (c1 >= k) {
-    return "YES";
-  } else {
     return "NO";
+  } else {
+    return "YES";
   }
 }
 let k = 3;

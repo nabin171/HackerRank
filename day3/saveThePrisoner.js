@@ -15,3 +15,18 @@ let m = 5;
 let s = 2;
 
 console.log(saveThePrisoner(n, m, s));
+
+
+
+
+// function saveThePrisoner(n, m, s) {
+//     // Write your code here
+//     let rem = m % n; // 1
+  
+//     // 2, 3, 4, 1
+//     let startingPosition = s - 1 === 0 ? n : s - 1; // 4
+  
+//     let last = (startingPosition + rem) % n;
+  
+//     return last === 0 ? n : last;
+//   }

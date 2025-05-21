@@ -8,11 +8,6 @@ function designerPdfViewer(h, word) {
     }
   }
   return max * word.length;
-  //   for (let i = 0; i < h.length; i++) {}
-
-  //   let result = word.length * convertMax;
-  //   return result;
-  // Write your code here
 }
 let h = [
   1, 1, 1, 1, 2, 2, 1, 6, 3, 6, 5, 8, 9, 8, 7, 6, 5, 5, 4, 4, 2, 1, 3, 2, 4, 5,

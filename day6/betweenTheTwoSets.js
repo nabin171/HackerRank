@@ -1,6 +1,6 @@
 function getTotalX(a, b) {
   let count = 0;
-  for (let n = Math.max(...a); n < Math.min(...b); n++) {
+  for (let n = Math.max(...a); n <= Math.min(...b); n++) {
     let condition1 = true;
     let condition2 = true;
     for (let i = 0; i < a.length; i++) {

@@ -4,7 +4,7 @@ function viralAdvertising(n) {
   let cumulativeLikes = 0;
   let shares = 5;
   for (let i = 1; i <= n; i++) {
-    likes = Math.floor(shares / 2);
+   let likes = Math.floor(shares / 2);
     cumulativeLikes = cumulativeLikes + likes;
     shares = likes * 3;
   }

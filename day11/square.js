@@ -8,5 +8,5 @@ function square(array) {
   }
   return "false";
 }
-let array = [2, 3, 6];
+let array = [2, 3, 6, 4];
 console.log(square(array));
