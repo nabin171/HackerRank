@@ -1,15 +1,11 @@
-function simpleArraySum(ar) {
-  let leftSum = 0,
-    rightSum = 0;
-  for (let i = 0; i < ar.length; i++) {
-    leftSum += ar[i][i];
-    rightSum += ar[i][ar.length - (i + 1)];
+function patternPrinting(n) {
+  for (let i = 0; i <= n - 1; i++) {
+    let array = [];
+    for (let j = 0; j <= i; j++) {
+      array.push(i + j + 1);
+    }
+    console.log(array);
   }
-  return Math.abs(leftSum - rightSum);
 }
-let array = [
-  [1, 2, 3],
-  [4, 5, 6],
-  [7, 8, 11],
-];
-console.log(simpleArraySum(array));
+let n = 4;
+console.log(patternPrinting(n));
