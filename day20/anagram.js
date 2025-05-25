@@ -21,6 +21,7 @@ function anagram(str1, str2) {
   console.log(keys1);
   console.log(keys2);
 
+
   if (keys1.length !== keys2.length) {
     return false;
   }
